@@ -72,19 +72,24 @@
 .x-icon{
     display: none;
 }
-.hero-bg {
-    display: none;
-}
 
 .hero-image {
-    width: 50%;
+    max-width: 500px;
+    margin: 0 0 0 auto;
+
 }
 
 .hero-image img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+    right: 0;
 }
 
 @media screen and (max-width: 576px) {
+    body{
+        max-width: 95%;
+        margin: 0 auto;
+    }
     .section-margin {
         border-radius: 8px;
         margin-top: 5px;
@@ -131,21 +136,33 @@
         }
 
     .hero-area {
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
+        padding-bottom: 30px;
     }
 
     .hero-title {
         font-size: 3rem;
+        
     }
 
-    .hero-desc {
+    .hero-desc, .section-description {
         font-size: 1rem;
         max-width: 100%;
-        margin: auto;
+        margin: 0 auto;
     }
 
     .hero-image {
-        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
     }
+    .about{
+        margin-bottom: 30px;
+    }
+    .about-items{
+        flex-direction: column;
+    }
+        .section-description{
+            margin-bottom: 20px;
+        }
 }
