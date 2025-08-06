@@ -97,9 +97,22 @@
     padding: 20px;
 }
 
+.skill-item{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .15);
+    padding: 16px;
+    border-radius: 16px;
+}
 .skill-item img {
     width: 225px;
     height: 225px;
+}
+
+.project-container .project-item{
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0, 0.7);
+}
+.project-container img{
+    width: 528px;
+    height: 316px;
 }
 
 @media screen and (max-width: 576px) {
@@ -200,5 +213,8 @@
     .skill-item img{
         width: 180px;
         height: 180px;
+    }
+    .project-container{
+        grid-template-columns: repeat(1,1fr);
     }
 }
