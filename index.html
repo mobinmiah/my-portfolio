@@ -23,11 +23,11 @@
             <div class="logo">
                 <p class="font-lobster font-black text-[3rem] text-[#504d4d]">Mobin</p>
             </div>
-            <div class="bar-icon" id="bar-icon">
-                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            <div class="bar-icon">
+                <i class="fa-solid fa-bars" id="bar-icon" onclick="clicked('open')"></i>
             </div>
-            <div class="x-icon" id="x-icon">
-                <i class="fa-solid fa-xmark"></i>
+            <div class="x-icon">
+                <i class="fa-solid fa-xmark" id="x-icon" onclick="close('off')"></i>
             </div>
             <ul class="responsive-ul flex justify-between items-center gap-[100px] font-poppin text-2xl font-semibold text-gray-700 cursor-pointer"
                 id="menuList">
