@@ -174,15 +174,23 @@
     }
 
     .hero-title {
-        font-size: 3rem;
+        font-size: 2rem;
 
     }
-
+    .greetings{
+        font-size: 1.4rem;
+    }
+    .intro{
+        font-size: 1.4rem;
+    }
     .hero-desc,
     .section-description {
         font-size: 1rem;
         max-width: 90%;
         margin: 0 auto;
+    }
+    .skill-desc, .project-desc{
+        font-size: 1rem;
     }
 
     .hero-image {
@@ -213,6 +221,7 @@
     .skill-item img{
         width: 180px;
         height: 180px;
+        margin: 0 auto;
     }
     .project-container{
         grid-template-columns: repeat(1,1fr);
