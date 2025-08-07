@@ -72,14 +72,14 @@
 
 .bar-icon {
     display: none;
-    font-size: 1.3rem;
+    font-size: 2.5rem;
     color: #504d4d;
     cursor: pointer;
 }
 
 .x-icon {
     display: none;
-    font-size: 1.3rem;
+    font-size: 2rem;
     color: #504d4d;
     cursor: pointer;
 }
@@ -146,7 +146,7 @@
     }
 
     .logo p {
-        font-size: 1.7rem;
+        font-size: 2.5rem;
     }
 
     .bar-icon {
