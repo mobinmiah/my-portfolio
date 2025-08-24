@@ -83,14 +83,12 @@ body {
 }
 
 .bar-icon {
-    display: none;
     font-size: 2.5rem;
     color: #504d4d;
     cursor: pointer;
 }
 
 .x-icon {
-    display: none;
     font-size: 2rem;
     color: #504d4d;
     cursor: pointer;
@@ -164,12 +162,11 @@ body {
     .bar-icon {
         display: block;
     }
-
     .responsive-ul {
         display: none;
         position: absolute;
-        top: 60px;
-        right: 0;
+        top: 100px;
+        right: 50px;
         text-align: center;
         flex-direction: column;
         font-size: 1rem;
